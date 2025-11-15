@@ -18,7 +18,10 @@ namespace JasonMittelstedtA10
             {
                 new Student("Alice", "Johnson", 101, "123 Main St", "Computer Science", "Mathematics"),
                 new Teacher("Bob", "Smith", 202, "456 Oak Rd", "History"),
-                new Staff("Carol", "Brown", 303, "789 Pine Ave", "Administrator")
+                new Staff("Carol", "Brown", 303, "789 Pine Ave", "Administrator"),
+                new Student("Mike", "Townson", 404, "123 First St", "", ""),
+                new Teacher("Gray", "Squarepants", 505, "456 Pine Rd", ""),
+                new Staff("Susan", "Green", 606, "789 Oaks Ave", "Bus Driving")
             };
 
             // Display details dynamically

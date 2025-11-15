@@ -25,7 +25,7 @@ namespace JasonMittelstedtA10.Model.Person
 
         public override string ToString()
         {
-            return $"{FirstName} {LastName} : ID – {Id}; Title – {Title}";
+            return $"{base.ToString()}; Title – {Title}";
         }
 
         public override string Details =>
